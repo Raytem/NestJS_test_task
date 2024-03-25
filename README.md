@@ -20,6 +20,11 @@ $ migration:run
 $ migration:revert
 ```
 
+## Testing
+```bash
+$ npm test
+```
+
 ## Task Requirements
 https://wild-bean-19b.notion.site/Middle-NestJS-824b413a224f490cb75bd6329888f99c
 
