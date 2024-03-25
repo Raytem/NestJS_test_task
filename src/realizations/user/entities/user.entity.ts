@@ -1,8 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Exclude, Expose } from 'class-transformer';
 import { IsEmail, IsString, Length } from 'class-validator';
-import { AbstractEntity } from 'src/realizations/abstract.entity';
-import { ArticleEntity } from 'src/realizations/article/entities/article.entity';
+import { AbstractEntity } from '../../abstract.entity';
+import { ArticleEntity } from '../../article/entities/article.entity';
 import { Column, Entity, Index, OneToMany } from 'typeorm';
 
 @Entity('user')

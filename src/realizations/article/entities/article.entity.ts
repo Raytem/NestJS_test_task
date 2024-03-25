@@ -1,8 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsString, Length } from 'class-validator';
-import { AbstractEntity } from 'src/realizations/abstract.entity';
-import { UserEntity } from 'src/realizations/user/entities/user.entity';
+import { AbstractEntity } from '../../abstract.entity';
+import { UserEntity } from '../../user/entities/user.entity';
 import { Column, CreateDateColumn, Entity, ManyToOne } from 'typeorm';
 
 @Entity('article')

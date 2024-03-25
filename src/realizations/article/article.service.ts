@@ -8,8 +8,8 @@ import { UpdateArticleDto } from './dto/update-article.dto';
 import { Repository } from 'typeorm';
 import { ArticleEntity } from './entities/article.entity';
 import { InjectRepository } from '@nestjs/typeorm';
-import { UserEntity } from 'src/realizations/user/entities/user.entity';
-import { PaginationService } from 'src/pagination/pagination.service';
+import { UserEntity } from '../user/entities/user.entity';
+import { PaginationService } from '../../pagination/pagination.service';
 import { ArticleFilterDto } from './dto/article-filter.dto';
 
 @Injectable()
